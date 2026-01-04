@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './hero.module.css';
 
 const Hero = () => {
@@ -17,13 +18,13 @@ const Hero = () => {
                         Dedicated to fostering academic excellence and research innovation.
                     </p>
                     <div className={styles.actions}>
-                        <a href="/cv" className="btn btn-primary">View Full Profile</a>
-                        <a href="/courses" className="btn" style={{ marginLeft: '1rem', border: '1px solid var(--primary-color)' }}>View Courses</a>
+                        <Link to="/cv" className="btn btn-primary">View Full Profile</Link>
+                        <Link to="/courses" className="btn" style={{ marginLeft: '1rem', border: '1px solid var(--primary-color)' }}>View Courses</Link>
                     </div>
                 </div>
                 <div className={styles.imageWrapper}>
                     <div className={styles.placeholderImage}>
-                        Dr. Reshma S
+                        <img src="" alt="Dr. Reshma S" />
                     </div>
                 </div>
             </div>

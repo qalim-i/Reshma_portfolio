@@ -1,0 +1,34 @@
+import styles from './hero.module.css';
+
+const Hero = () => {
+    return (
+        <section className={styles.heroSection}>
+            <div className={`container ${styles.heroContainer}`}>
+                <div className={styles.content}>
+                    <h1 className={styles.title}>
+                        Dr. <span className={styles.highlight}>Reshma S</span>
+                    </h1>
+                    <h2 className={styles.subtitle}>
+                        Associate Professor
+                    </h2>
+                    <p className={styles.bio}>
+                        B.E., M.Tech., Ph.D | Experience: 21 Years 7 Months<br />
+                        Specializing in Machine Learning and Artificial Intelligence.<br />
+                        Dedicated to fostering academic excellence and research innovation.
+                    </p>
+                    <div className={styles.actions}>
+                        <a href="/cv" className="btn btn-primary">View Full Profile</a>
+                        <a href="/courses" className="btn" style={{ marginLeft: '1rem', border: '1px solid var(--primary-color)' }}>View Courses</a>
+                    </div>
+                </div>
+                <div className={styles.imageWrapper}>
+                    <div className={styles.placeholderImage}>
+                        Dr. Reshma S
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default Hero;

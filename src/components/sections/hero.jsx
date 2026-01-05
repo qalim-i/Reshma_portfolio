@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './hero.module.css';
+import reshma from '../../assets/reshma.png';
 
 const Hero = () => {
     return (
@@ -24,7 +25,7 @@ const Hero = () => {
                 </div>
                 <div className={styles.imageWrapper}>
                     <div className={styles.placeholderImage}>
-                        <img src="" alt="Dr. Reshma S" />
+                        <img src={reshma} alt="Dr. Reshma S" />
                     </div>
                 </div>
             </div>

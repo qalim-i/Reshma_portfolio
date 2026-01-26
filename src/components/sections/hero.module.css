@@ -1,9 +1,13 @@
 .heroSection {
     padding: 8rem 0 6rem;
     background-color: var(--background-light);
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
+    background-image: url('/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .heroContainer {
@@ -15,6 +19,12 @@
 
 .content {
     max-width: 600px;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .title {

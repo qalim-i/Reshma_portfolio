@@ -1,16 +1,23 @@
 :root {
   /* Color Palette - Professional/Academic Theme */
-  --primary-color: #0f172a; /* Slate 900 */
-  --secondary-color: #334155; /* Slate 700 */
-  --accent-color: #0ea5e9; /* Sky 500 */
-  --background-light: #f8fafc; /* Slate 50 */
-  --text-main: #1e293b; /* Slate 800 */
-  --text-muted: #64748b; /* Slate 500 */
+  --primary-color: #16223e;
+  /* Slate 900 */
+  --secondary-color: #203e69;
+  /* Slate 700 */
+  --accent-color: #0ea5e9;
+  /* Sky 500 */
+  --background-light: #f8fafc;
+  /* Slate 50 */
+  --text-main: #1e293b;
+  /* Slate 800 */
+  --text-muted: #547199;
+  /* Slate 500 */
   --white: #ffffff;
-  
+
   /* Typography */
   --font-family-main: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-family-heading: 'Playfair Display', serif; /* For a touch of elegance */
+  --font-family-heading: 'Playfair Display', serif;
+  /* For a touch of elegance */
 }
 
 * {
@@ -26,7 +33,12 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-family-heading);
   color: var(--primary-color);
   margin-bottom: 0.5em;

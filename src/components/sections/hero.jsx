@@ -20,7 +20,7 @@ const Hero = () => {
                     </p>
                     <div className={styles.actions}>
                         <Link to="/cv" className="btn btn-primary">View Full Profile</Link>
-                        <Link to="/courses" className="btn" style={{ marginLeft: '1rem', border: '1px solid var(--primary-color)' }}>View Courses</Link>
+                        <Link to="/courses" className="btn btn-primary">View Courses</Link>
                     </div>
                 </div>
                 <div className={styles.imageWrapper}>

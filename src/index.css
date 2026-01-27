@@ -1,16 +1,16 @@
 :root {
   /* Color Palette - Professional/Academic Theme */
-  --primary-color: #16223e;
+  --primary-color: #9fb3e5;
   /* Slate 900 */
-  --secondary-color: #203e69;
+  --secondary-color: #3475d0;
   /* Slate 700 */
-  --accent-color: #0ea5e9;
+  --accent-color: #4978ba;
   /* Sky 500 */
   --background-light: #f8fafc;
   /* Slate 50 */
-  --text-main: #1e293b;
+  --text-main: #334562;
   /* Slate 800 */
-  --text-muted: #547199;
+  --text-muted: #a2b5d0;
   /* Slate 500 */
   --white: #ffffff;
 

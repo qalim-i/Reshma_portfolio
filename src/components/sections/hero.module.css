@@ -4,10 +4,12 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('/image.png');
+    background-image: url('../../assets/hero-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+    /* Added for overlay positioning if needed later */
 }
 
 .heroContainer {

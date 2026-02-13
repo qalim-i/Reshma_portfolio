@@ -1,6 +1,6 @@
 # Reshma's Portfolio
 
-A personal portfolio website built with [React](https://react.dev/) and [Vite](https://vitejs.dev/) to showcase professional accomplishments, academic courses, and educational materials.
+A personal portfolio website built with [React](https://react.dev/) and [Vite](https://vitejs.dev/) to showcase professional accomplishments, academic courses, and educational materials. for Mrs.Reshma S 
 
 ## 🌟 Features
 
@@ -19,61 +19,3 @@ A personal portfolio website built with [React](https://react.dev/) and [Vite](h
 - **Styling**: CSS Modules
 - **Icons**: React Icons
 
-## 🚀 Getting Started
-
-Follow these instructions to get the project up and running on your local machine.
-
-### Prerequisites
-
-Ensure you have [Node.js](https://nodejs.org/) installed on your system.
-
-### Installation
-
-1.  Clone the repository:
-    ```bash
-    git clone <repository-url>
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd reshma_portfolio
-    ```
-3.  Install dependencies:
-    ```bash
-    npm install
-    ```
-
-### Running the Development Server
-
-Start the local development server:
-
-```bash
-npm run dev
-```
-
-The application will be available at `http://localhost:5173` (or the URL shown in your terminal).
-
-### building for Production
-
-To create a production-ready build:
-
-```bash
-npm run build
-```
-
-To preview the production build locally:
-
-```bash
-npm run preview
-```
-
-## 📂 Project Structure
-
-```
-src/
-├── components/
-│   ├── layout/       # Shared layout components (Navbar, Footer, etc.)
-│   ├── sections/     # Page content (Hero, CV, Courses, CourseMaterials)
-│   └── utils/        # Utility components (e.g., ScrollToTop)
-├── App.jsx           # Main application component with Routing
-└── main.jsx          # Entry point
-```
